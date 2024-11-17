@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body class="bg-light">
+    <header>
+      <section class="top-bar">
+        <div class="container">
+          <div class="row gy-3">
+            <div class="col-4 col-lg-2">
+              <a href="index.html" class="navbar-brand"><h4>E-Commerce</h4></a>
+            </div>
+            <div class="col-lg-5 order-lg-2 order-3">
+              <form action="" role="search">
+                <div class="input-group">
+                  <input
+                    type="search"
+                    class="form-control"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button type="submit" class="btn btn-primary">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div class="col-8 col-lg-5 order-lg-3 order-2 text-end">
+              <a href="#" class="btn btn-light">
+                <i class="fa-solid fa-user"></i>
+                <span class="d-sm-inline-block d-none">Profile</span>
+              </a>
+              <a href="#" class="btn btn-light">
+                <i class="fa-solid fa-heart"></i>
+                <span class="d-sm-inline-block d-none">Favorites</span>
+              </a>
+              <a href="#" class="btn btn-light">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="d-sm-inline-block d-none">Cart</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <nav
+        class="nav-bradcrumb navbar navbar-expand-lg bg-primary navbar-dark"
+        aria-label="breadcrumb"
+      >
+        <div class="container align-items-center">
+          <ol class="breadcrumb my-1">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Category 1</a></li>
+            <li class="breadcrumb-item active" aria-current="page">
+              Product 1
+            </li>
+          </ol>
+        </div>
+      </nav>
+    </header>
+
+    <section class="details-products py-4">
+      <div class="container">
+        <div class="row">
+          <aside class="col-lg-5">
+            <div class="gallery-wrap">
+              <div class="img-big-wrap img-thumbnail mb-3">
+                <a
+                  href="img/2.jpeg"
+                  data-type="image"
+                  data-fslightbox="mygallery"
+                >
+                  <img src="img/2.jpeg" class="w-100" alt="" />
+                </a>
+              </div>
+              <div class="thumbs-wrap text-center">
+                <a
+                  href="img/3.jpeg"
+                  data-type="image"
+                  data-fslightbox="mygallery"
+                >
+                  <img src="img/3.jpeg" height="60" width="60" alt="" />
+                </a>
+                <a
+                  href="img/4.jpeg"
+                  data-type="image"
+                  data-fslightbox="mygallery"
+                >
+                  <img src="img/4.jpeg" height="60" width="60" alt="" />
+                </a>
+                <a
+                  href="img/5.jpeg"
+                  data-type="image"
+                  data-fslightbox="mygallery"
+                >
+                  <img src="img/5.jpeg" height="60" width="60" alt="" />
+                </a>
+                <a
+                  href="img/7.jpeg"
+                  data-type="image"
+                  data-fslightbox="mygallery"
+                >
+                  <img src="img/7.jpeg" height="60" width="60" alt="" />
+                </a>
+                <a
+                  href="img/8.jpeg"
+                  data-type="image"
+                  data-fslightbox="mygallery"
+                >
+                  <img src="img/8.jpeg" height="60" width="60" alt="" />
+                </a>
+              </div>
+            </div>
+          </aside>
+          <main class="col-lg-7">
+            <article class="detail-content">
+              <h4 class="detail-content__title text-truncate">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Tempora, ipsam?
+              </h4>
+              <div class="detail-content__ratings">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p class="text-success">in stock</p>
+              <div class="mb-3">
+                <b class="price h5">6599 TL</b>
+              </div>
+              <div class="product-desc">
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloribus veritatis blanditiis quaerat vel. Assumenda rerum
+                  doloribus ea, harum sint iste porro nesciunt laboriosam, fuga
+                  illum minima vitae? Vitae, tempora. Quos.
+                </p>
+              </div>
+              <dl class="row bottom-bottom">
+                <dt class="col-3">Color:</dt>
+                <dd class="col-9">Brown</dd>
+                <dt class="col-3">Option2:</dt>
+                <dd class="col-9">Lorem, ipsum dolor.</dd>
+              </dl>
+              <div class="row mb-4">
+                <div class="col col-md-6 mb-2">
+                  <label for="pieces" class="form-label">Pieces: </label>
+                  <input
+                    type="number"
+                    name="pieces"
+                    id="pieces"
+                    value="1"
+                    max="10"
+                    min="1"
+                    class="form-control"
+                  />
+                </div>
+              </div>
+              <div class="buttons">
+                <a
+                  href=""
+                  class="btn btn-warning mb-2 d-md-inline-block d-block"
+                >
+                  <i class="fa-solid fa-cart-shopping"></i> Add to cart
+                </a>
+                <a href="" class="btn btn-light mb-2 d-md-inline-block d-block">
+                  <i class="fa-solid fa-heart"></i> Add to fav
+                </a>
+              </div>
+            </article>
+          </main>
+        </div>
+      </div>
+    </section>
+
+    <section class="details-recommendeds mt-3">
+      <div class="container">
+        <header>
+          <h3>Recommendeds</h3>
+        </header>
+        <main class="row">
+          <div class="col-lg-3 col-md-6 col">
+            <figure class="card shadow product-card">
+              <a href="#" class="product-card__wrap">
+                <i class="fa-solid fa-heart badge-icon"></i>
+                <img src="img/1.jpeg" class="rounded-top" alt="" />
+              </a>
+              <figcaption class="border-top p-3 product-card__info">
+                <a href="#" class="product-card__title text-truncate"
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.</a
+                >
+                <div class="product-card__price">
+                  <span class="price">6599 TL</span>
+                  <del class="price-old">6999 TL</del>
+                </div>
+                <a href="#" class="btn btn-outline-primary d-block"
+                  >Add to cart</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-lg-3 col-md-6 col">
+            <figure class="card shadow product-card">
+              <a href="#" class="product-card__wrap">
+                <i class="fa-solid fa-heart badge-icon"></i>
+                <img src="img/2.jpeg" class="rounded-top" alt="" />
+              </a>
+              <figcaption class="border-top p-3 product-card__info">
+                <a href="#" class="product-card__title text-truncate"
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.</a
+                >
+                <div class="product-card__price">
+                  <span class="price">6599 TL</span>
+                  <del class="price-old">6999 TL</del>
+                </div>
+                <a href="#" class="btn btn-outline-primary d-block"
+                  >Add to cart</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-lg-3 col-md-6 col">
+            <figure class="card shadow product-card">
+              <a href="#" class="product-card__wrap">
+                <i class="fa-solid fa-heart badge-icon"></i>
+                <img src="img/3.jpeg" class="rounded-top" alt="" />
+              </a>
+              <figcaption class="border-top p-3 product-card__info">
+                <a href="#" class="product-card__title text-truncate"
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.</a
+                >
+                <div class="product-card__price">
+                  <span class="price">6599 TL</span>
+                  <del class="price-old">6999 TL</del>
+                </div>
+                <a href="#" class="btn btn-outline-primary d-block"
+                  >Add to cart</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-lg-3 col-md-6 col">
+            <figure class="card shadow product-card">
+              <a href="#" class="product-card__wrap">
+                <i class="fa-solid fa-heart badge-icon"></i>
+                <img src="img/4.jpeg" class="rounded-top" alt="" />
+              </a>
+              <figcaption class="border-top p-3 product-card__info">
+                <a href="#" class="product-card__title text-truncate"
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.</a
+                >
+                <div class="product-card__price">
+                  <span class="price">6599 TL</span>
+                  <del class="price-old">6999 TL</del>
+                </div>
+                <a href="#" class="btn btn-outline-primary d-block"
+                  >Add to cart</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-lg-3 col-md-6 col">
+            <figure class="card shadow product-card">
+              <a href="#" class="product-card__wrap">
+                <i class="fa-solid fa-heart badge-icon"></i>
+                <img src="img/5.jpeg" class="rounded-top" alt="" />
+              </a>
+              <figcaption class="border-top p-3 product-card__info">
+                <a href="#" class="product-card__title text-truncate"
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.</a
+                >
+                <div class="product-card__price">
+                  <span class="price">6599 TL</span>
+                  <del class="price-old">6999 TL</del>
+                </div>
+                <a href="#" class="btn btn-outline-primary d-block"
+                  >Add to cart</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-lg-3 col-md-6 col">
+            <figure class="card shadow product-card">
+              <a href="#" class="product-card__wrap">
+                <i class="fa-solid fa-heart badge-icon"></i>
+                <img src="img/6.jpeg" class="rounded-top" alt="" />
+              </a>
+              <figcaption class="border-top p-3 product-card__info">
+                <a href="#" class="product-card__title text-truncate"
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.</a
+                >
+                <div class="product-card__price">
+                  <span class="price">6599 TL</span>
+                  <del class="price-old">6999 TL</del>
+                </div>
+                <a href="#" class="btn btn-outline-primary d-block"
+                  >Add to cart</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+        </main>
+      </div>
+    </section>
+
+    <footer class="footer mt-3 bg-primary py-3">
+      <div class="container">
+        <div class="row gy-3">
+          <div class="col-md-4">
+            <form>
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Email"
+                  aria-label="Email"
+                  aria-describedby="button-subscribe"
+                />
+                <button
+                  class="btn btn-outline-warning"
+                  type="submit"
+                  id="subscribe"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="social col-md-8 text-center text-md-end">
+            <a href="#" class="btn btn-outline-warning btn-icon">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#" class="btn btn-outline-warning btn-icon">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#" class="btn btn-outline-warning btn-icon">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#" class="btn btn-outline-warning btn-icon">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </div>
+          <div class="col text-white text-center">
+            <p>Copyright 2024. &#xA9; All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="../node_modules/fslightbox/index.js"></script>
+  </body>
+</html>
