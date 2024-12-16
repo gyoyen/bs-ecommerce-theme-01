@@ -6,8 +6,6 @@ This project is a web page theme designed using **Bootstrap**, including HTML, C
 
 This project is created solely for educational and practice purposes. It is intended to help develop and demonstrate skills in web development using open-source technologies such as Bootstrap, Sass, fslightbox, and Font Awesome. All components and code within this repository are used as a learning tool and may not be fully optimized for production use.
 
-The project is licensed under the [GNU General Public License v3.0](LICENSE.txt) and includes references to other open-source libraries with their respective licenses.
-
 ## Project Structure
 
 The project's folder structure is as follows:
